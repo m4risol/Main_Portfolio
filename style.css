@@ -1,9 +1,10 @@
 header {
-    height: 85vh;
+    /* height: 85vh; */
+    height: 100vh;
     min-height: 300px;
     background-size: cover;
     /* background-color: rgb(19, 19, 19); */
-    background-image: url("images/water3.jpeg");
+    background-image: url("images/water1.jpeg");
     /* background-image: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
     background-position: center;
     /* background-attachment: fixed; */
@@ -22,33 +23,39 @@ nav {
 
 nav a {
     font-family: "The Historia Demo", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
+    transition: color 600ms;
+}
+
+nav a:hover {
+    color: rgb(63, 62, 62);
 }
 
 .scroll-down {
-    color: blue;
+    color: #a8a8a8;
     margin-top: 2rem;
     font-size: 3.5rem;
+    transition: color 600ms;
+
 }
 
 .scroll-down:hover {
-    color: lightskyblue;
+    color: rgb(206, 206, 206);
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: #fafafa;
 }
 
-.abouthr {
-    width: 20%;
-    background: lightblue;
+
+hr {
+    width: 50%;
 }
 
-#about h2 {
+h2 {
     font-family: "The Historia Demo", sans-serif;
     font-size: 70px;
-    color: #88c7eb
 }
 
 .landingtext {
@@ -57,4 +64,6 @@ footer {
 
 #about p {
     font-family: 'Lato', sans-serif;
+    max-width: 50rem;
+
 }
