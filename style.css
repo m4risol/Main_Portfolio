@@ -1,3 +1,17 @@
+body {
+  /* overflow: hidden; */
+  height: 100vh;
+}
+
+.portfolio {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    /* overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
+}
+
 header {
     /* height: 85vh; */
     height: 100vh;
@@ -9,6 +23,13 @@ header {
     background-position: center;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
+}
+
+section {
+    /* Scroll Snap */
+  /* scroll-snap-align: center; */
+  width: 100%;
+  height: 100vh;
 }
 
 .landingname {
@@ -24,12 +45,12 @@ nav {
 nav a {
     font-family: "The Historia Demo", sans-serif;
     font-size: 25px;
-    color: black;
-    transition: color 600ms;
+    /* color: black; */
+    /* transition: 600ms; */
 }
 
 nav a:hover {
-    color: rgb(63, 62, 62);
+    color: rgb(122, 120, 120);
 }
 
 .scroll-down {
@@ -44,9 +65,9 @@ nav a:hover {
     color: rgb(206, 206, 206);
 }
 
-footer {
+/* footer {
     background-color: #fafafa;
-}
+} */
 
 
 hr {
@@ -67,3 +88,8 @@ h2 {
     max-width: 50rem;
 
 }
+
+footer i:hover {
+    color:rgb(206, 206, 206)
+}
+
